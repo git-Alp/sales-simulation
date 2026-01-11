@@ -1,7 +1,7 @@
 from model import FlashSaleModel
 
 # --- CONFIGURATION ---
-NUMBER_OF_AGENTS = 30     # Let's start small
+NUMBER_OF_AGENTS = 150     # Let's start small
 INITIAL_STOCK = 10        # High scarcity (FOMO trigger)
 TIME_LIMIT = 20          # Short duration
 
