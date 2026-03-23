@@ -10,8 +10,8 @@ st.title("⚡ AI Agent 'Flash Sale' Simulation")
 # --- SIDEBAR ---
 with st.sidebar:
     st.header("⚙️ Settings")
-    num_agents = st.slider("Number of Customers", 5, 50, 30)
-    stock_count = st.slider("Stock Quantity", 1, 50, 15)
+    num_agents = st.slider("Number of Customers", 5, 150, 30)
+    stock_count = st.slider("Stock Quantity", 1, 500, 15)
     time_limit = st.slider("Duration (Min)", 5, 60, 30)
     speed = st.slider("Speed", 0.1, 2.0, 0.5)
     start_btn = st.button("Start Simulation", type="primary")
